@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "LouisBold", "LouisCondensedRegulaLouisCondensedRegular", "EMprint-CondensedLight", "EMprint-CondensedBold";
+  src: url(../fonts/EMprint-CondensedBold.ttf);
+  src: url(../fonts/EMprint-CondensedLight.ttf);
+  src: url(../fonts/LouisCondensedRegular.ttf);
+  src: url(../fonts/LouisBold.ttf);
+  font-display: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+// Mediaqueries Header Menu
+.navbar-nav .nav-item-divider {
+  display: none;
+  @media (min-width: 1200px) {
+    display: block;
+  }
+  .nav-link {
+    &:hover {
+      color: #cba758 !important;
+    }
+    >span {
+      border-left: 1px solid #999;
+    }
+  }
+}
+
+// Active supp-link
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      transition: ease-in-out .3s all;
+      &:hover {
+        color: #cba758;
+      }
+    }
+    .show>.nav-link {
+      border-top: 2px solid #cba758;
+    }
+  }
+}
+
+ul.navbar-nav.ml-auto .nav-item {
+  &.active, .nav-item:active {
+    border-top: 2px solid #cba758;
+    .nav-link {
+      padding: 10px 15px;
+    }
+  }
+} 
+
+.dropdown-item.active, .dropdown-item:active {
+  background: #cba758;
+}
+
+.box-shadow-sm {
+  box-shadow: 0 0.125rem 0.3rem -0.0625rem rgba(0,0,0,0.03),0 0.275rem 0.75rem -0.0625rem rgba(0,0,0,0.06) !important;
+}

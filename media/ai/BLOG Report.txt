@@ -1,0 +1,159 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: BLOG.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 1920 px x 3550,4521 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+EMprint Condensed Light (OTF)
+EMprint Condensed Bold (OTF)
+Louis Regular (OTF)
+Louis Bold Italic (OTF)
+Louis-Bold (TrueType)
+Louis-CondensedRegular (TrueType)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Usuarios/joangaspar/OneDrive - Grupo Sancho/JOAN/2019/GM/SITE GM/BLOG/BLOG-01.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 86683K, 4000 by 7397 pixels
+Dimensions: 1920 by 3550,56 points 
+Resolution: 150 by 150 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.20.59 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 7268K, 1414 by 1316 pixels
+Dimensions: 473,704 by 440,873 points 
+Resolution: 214,919 by 214,919 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.21.14 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 10749K, 2352 by 1170 pixels
+Dimensions: 785,269 by 390,631 points 
+Resolution: 215,651 by 215,651 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.21.42 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 5769K, 1492 by 990 pixels
+Dimensions: 501,634 by 332,854 points 
+Resolution: 214,148 by 214,148 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.21.54 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 14204K, 2322 by 1566 pixels
+Dimensions: 778,462 by 525,011 points 
+Resolution: 214,762 by 214,761 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.22.07 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 11807K, 2728 by 1108 pixels
+Dimensions: 917,635 by 372,705 points 
+Resolution: 214,046 by 214,046 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.22.20 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 7657K, 1546 by 1268 pixels
+Dimensions: 518,579 by 425,329 points 
+Resolution: 214,648 by 214,648 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.22.31 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 7579K, 1664 by 1166 pixels
+Dimensions: 558,13 by 391,095 points 
+Resolution: 214,66 by 214,659 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.20.59 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 7268K, 1414 by 1316 pixels
+Dimensions: 538,865 by 501,518 points 
+Resolution: 188,931 by 188,931 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.20.59 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 7268K, 1414 by 1316 pixels
+Dimensions: 473,704 by 440,873 points 
+Resolution: 214,919 by 214,919 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.21.14 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 10749K, 2352 by 1170 pixels
+Dimensions: 1608,197 by 799,996 points 
+Resolution: 105,301 by 105,301 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.21.14 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 10749K, 2352 by 1170 pixels
+Dimensions: 1180,896 by 587,435 points 
+Resolution: 143,403 by 143,403 pixels per inch
+
+
+/Usuarios/joangaspar/Escritorio/Captura de Pantalla 2020-05-07 a la(s) 4.21.14 p. m.
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 10749K, 2352 by 1170 pixels
+Dimensions: 764,837 by 380,467 points 
+Resolution: 221,412 by 221,412 pixels per inch
