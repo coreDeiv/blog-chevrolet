@@ -66,6 +66,9 @@ ul.navbar-nav.ml-auto .nav-item {
     border-color: #cba758;
     color: #fff; }
 
+.cd_border-bot-cat {
+  border-bottom: 10px solid #cba758 !important; }
+
 .text-main {
   color: #cba758; }
 
@@ -75,7 +78,7 @@ ul.navbar-nav.ml-auto .nav-item {
 .box-shadow-sm {
   box-shadow: 0 0.125rem 0.3rem -0.0625rem rgba(0, 0, 0, 0.03), 0 0.275rem 0.75rem -0.0625rem rgba(0, 0, 0, 0.06) !important; }
 
-.bg-searchbar-blog {
+.cd_bg-searchbar-blog {
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img/pines-searchbar.jpg);
   background-size: cover;
   background-position: center;
