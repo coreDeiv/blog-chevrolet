@@ -1,3 +1,4 @@
+$main-color: #cba758;
 @font-face {
   font-family: "LouisBold", "LouisCondensedRegulaLouisCondensedRegular", "EMprint-CondensedLight", "EMprint-CondensedBold";
   src: url(../fonts/EMprint-CondensedBold.ttf);
@@ -20,9 +21,10 @@ html {
   height: auto;
   min-height: 100vh;
   overflow-x: hidden;
+  font-family: "LouisBold", sans-serif, serif;
 }
 
-// Mediaqueries Header Menu
+// Header Menu
 .navbar-nav .nav-item-divider {
   display: none;
   @media (min-width: 1200px) {
@@ -30,32 +32,32 @@ html {
   }
   .nav-link {
     &:hover {
-      color: #cba758 !important;
+      color: $main-color !important;
     }
     >span {
       border-left: 1px solid #999;
     }
   }
 }
-
-// Active supp-link
 .navbar-light {
   .navbar-nav {
     .nav-link {
+      padding: 10px 15px;
       transition: ease-in-out .3s all;
+      border-top: 3px solid transparent;
+      text-transform: uppercase;
+      font-weight: bold;
       &:hover {
-        color: #cba758;
+        color: $main-color;
       }
-    }
-    .show>.nav-link {
-      border-top: 2px solid #cba758;
     }
   }
 }
 
 ul.navbar-nav.ml-auto .nav-item {
+  border-top: 3px solid transparent;
   &.active, .nav-item:active {
-    border-top: 2px solid #cba758;
+    border-top: 3px solid $main-color;
     .nav-link {
       padding: 10px 15px;
     }
@@ -63,9 +65,54 @@ ul.navbar-nav.ml-auto .nav-item {
 } 
 
 .dropdown-item.active, .dropdown-item:active {
-  background: #cba758;
+  background: $main-color; 
+}
+
+// Tags of Post
+.tag-group {
+  a {
+    border-radius: 0 !important;
+    padding: 1px 10px !important;
+  }
+}
+
+// Input Styles
+.input-main {
+  border: 3px solid $main-color;
+  background: transparent;
+  // font-weight: bold;
+  padding: 25px;
+  border-radius: 15px;
+  transition: ease .3s;
+  &::placeholder {
+    color: #fff;
+  }
+  &:focus {
+    background: rgba(255,255,255,.1);
+    outline: none;
+    border-color: $main-color;
+    color: #fff;
+  }
+}
+
+// Bootstrap Extended Classes
+.text-main {
+  color: $main-color;
+}
+.btn-main {
+  background: $main-color;
 }
 
 .box-shadow-sm {
   box-shadow: 0 0.125rem 0.3rem -0.0625rem rgba(0,0,0,0.03),0 0.275rem 0.75rem -0.0625rem rgba(0,0,0,0.06) !important;
+}
+
+// Background Images
+.bg-searchbar-blog {
+  background-image: linear-gradient(90deg, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../media/img/pines-searchbar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }

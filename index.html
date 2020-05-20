@@ -18,13 +18,13 @@
 
       <header id="header">
         <nav class="navbar navbar-expand-xl navbar-togglable fixed-top navbar-light bg-white box-shadow-sm">
-          <div class="container">
+          <div class="container-fluid">
 
             <!-- Mobile First Design -->
             <div class="d-flex d-md-block">
               <!-- Brand -->
-              <a class="navbar-brand pr-5 pr-md-0" href="index.html">
-                <img src="./media/logo/CHEVROLET-IZUZU-800x200.png" alt="" class="img img-fluid w-md-50">
+              <a class="navbar-brand pr-5 pr-md-0 text-center" href="index.html">
+                <img src="./media/logo/CHEVROLET-IZUZU-800x200.png" alt="" class="img img-fluid w-50" loading="lazy">
               </a>
 
               <!-- Toggler -->
@@ -47,7 +47,7 @@
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarLandings" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    Portfolio
+                    Portafolio
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarLandings">
                     <a class="dropdown-item " href="app.html">
@@ -139,6 +139,61 @@
         </nav>
       </header>
       <main>
+
+        <!-- Serach Bar Section -->
+        <section id="search-bar" class="bg-searchbar-blog">
+          <div class="container">
+            <div class="row pt-25 pb-15">
+              <div class="col-md-10 m-auto">
+
+                <form>
+                  <div class="form-group d-flex m-auto">
+                    <label for="formGroupExampleInput" class="m-auto pr-3 text-main"><i class="fas fa-search"></i></label>
+                    <input type="text" class="form-control input-main" id="formGroupExampleInput" placeholder="¿Que estas buscando?">
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section id="main-post">
+          <div class="container-fluid">
+            <div class="row py-5">
+              <div class="col-md-10 offset-md-1">
+
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="./media/img/truck-model-1.png" class="card-img-top" alt="model-truck-1" data-image_post="img-post" id="img-post">
+                      <div class="card-body">
+                        <h6 class="card-date">
+                          <span id="day-post">00</span>
+                          /
+                          <span id="month-post">00</span>
+                          /
+                          <span id="year-post">00</span>
+                        </h6>
+                        <h4 class="card-title text-uppercase text-bold" data-title="title" id="title-post">Este es el primer camion 4x4 de chevrolet</h4>
+                        <p class="card-text text-muted fz-1rem" data-description="description" id="description-post">Conoce el camion NPS 4X4 hecho para los que no tienen limites</p>
+                        <div class="d-flex jc-between ai-center">
+                          <div class="tag-group" id="tags-post">
+                            <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Lorem</a>
+                            <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Ipsum</a>
+                            <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Dolor</a>
+                          </div>
+                          <a href="#" class="btn btn-main rounded-circle" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
 
       </main>
       <footer>
