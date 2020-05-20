@@ -68,11 +68,28 @@ ul.navbar-nav.ml-auto .nav-item {
   background: $main-color; 
 }
 
+/* Personalized classes */
+// Background Newsletter
+.cd_bg-news-box {
+  background: rgb(226, 225, 225);
+}
+
 // Tags of Post
 .tag-group {
   a {
     border-radius: 0 !important;
     padding: 1px 10px !important;
+  }
+}
+
+// Inputs from outside the search engine
+.cd_input-normal {
+  outline: none;
+  &:focus {
+    border: none;
+    outline: none;
+    border-color: $main-color;
+    box-shadow: 0 0 0 0.2rem rgba(#cba758, .5);
   }
 }
 

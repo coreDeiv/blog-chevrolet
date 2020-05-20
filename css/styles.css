@@ -48,9 +48,21 @@ ul.navbar-nav.ml-auto .nav-item {
 .dropdown-item.active, .dropdown-item:active {
   background: #cba758; }
 
+/* Personalized classes */
+.cd_bg-news-box {
+  background: #e2e1e1; }
+
 .tag-group a {
   border-radius: 0 !important;
   padding: 1px 10px !important; }
+
+.cd_input-normal {
+  outline: none; }
+  .cd_input-normal:focus {
+    border: none;
+    outline: none;
+    border-color: #cba758;
+    box-shadow: 0 0 0 0.2rem rgba(203, 167, 88, 0.5); }
 
 .input-main {
   border: 3px solid #cba758;
