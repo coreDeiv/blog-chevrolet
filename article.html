@@ -12,9 +12,9 @@
     <link rel='stylesheet' href='css/styles.css' />
   </head>
 
-  <body class="bg-white">
+  <body class="bg-dark">
 
-    <div id="wrap-wrap">
+    <div id="wrap-wrap" class="bg-white">
 
       <header id="header">
         <nav class="navbar navbar-expand-xl navbar-togglable fixed-top navbar-light bg-white box-shadow-sm">
@@ -139,18 +139,18 @@
         </nav>
       </header>
 
-      <main id="cd_main-article" class="pt-5">
+      <main id="cd_main-article">
 
         <!-- Display of main content article and sidebar -->
         <div id="container-article" class="container-fluid">
           <div class="row">
             <!-- Block content -->
-            <div class="col-md-8 pl-0">
+            <div class="col-md-7 pl-0 pt-5">
 
               <!-- Content article of post -->
               <article id="post-article" class="d-block pr-5">
                 <div class="row">
-                  <div class="col-md-9 offset-md-3 pb-3">
+                  <div class="col-md-8 offset-md-3 pb-3">
                     <!-- Title of article -->
                     <h1 id="title-article" class="text-uppercase text-bold">Pusimos a prueba<br/>el primer camion 4x4 <br/>de nuestro portafolio</h1>
                   </div>
@@ -228,8 +228,100 @@
             </div><!-- Block content -->
 
             <!-- Side Bar-->
-            <aside class="col-md-4">
-              Imagen del articulo, articulo elegido y otros articulos
+            <aside class="col-md-5 d-none d-sm-block">
+              <div class="row">
+                <div class="col-md-8 overflow-x-hidden">
+
+                  <!-- Principal img of article -->
+                  <div class="img-article">
+                    <img src="./media/img/truck-model-1.png" alt="img-main-article" class="img img-fluid of-cover cd_min-vh-60">
+                  </div>
+
+                  <!-- Box of post -->
+                  <div class="col-12 px-0 py-5">
+                    <div class="card">
+                      <img src="./media/img/truck-model-3.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post" id="img-post">
+                      <div class="card-body">
+                        <h6 class="card-date">
+                          <span id="day-post">00</span>
+                          /
+                          <span id="month-post">00</span>
+                          /
+                          <span id="year-post">00</span>
+                        </h6>
+                        <h4 class="card-title text-uppercase text-bold" data-title="title" id="title-post">Cinco maneras para ser tu propio jefe</h4>
+                        <p class="card-text text-muted fz-1rem" data-description="description" id="description-post">Si eres de los que sueña con tener su propio camion, este articulo es para ti</p>
+                        <div class="d-flex jc-between ai-center">
+                          <div class="tag-group" id="tags-post">
+                            <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Lorem</a>
+                            <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Ipsum</a>
+                            <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Dolor</a>
+                          </div>
+                          <a href="./article.html" class="btn btn-main rounded-circle" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Other most read articles -->
+                  <aside class="col-12 px-0 py-5">
+                    <div class="border-left rl-0 overflow-hidden cd_min-vh-70 overflow-hidden">
+                      <div class="cd-title-sidebar px-4 py-2 border-bottom">
+                        <h2 class="text-main text-uppercase text-bold">LO MÁS LEIDO</h2>
+                      </div>
+                      <div class="cd-more-post">
+                        <div class="row">
+
+                          <!-- One More Post -->
+                          <div class="col-12">
+                            <div class="row ai-center border-bottom px-4 py-3">
+                              <div class="col-6">
+                                <img src="./media/img/truck-model-3.png" alt="another-post-1" class="img img-fluid of-cover">
+                              </div>
+                              <div class="col-6 lh-05">
+                                <h4 class="text-dark text-uppercase text-bold" data-title="title" id="title-post">Lorem Ipsum</h4>
+                                <p class="lead" data-subtitle="subtitle" id="subtitle-post">HTTP Practical</p>
+                                <a href="#" class="btn btn-main rounded-circle float-right" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- One More Post -->
+                          <div class="col-12">
+                            <div class="row ai-center border-bottom px-4 py-3">
+                              <div class="col-6">
+                                <img src="./media/img/truck-model-4.png" alt="another-post-1" class="img img-fluid of-cover">
+                              </div>
+                              <div class="col-6 lh-05">
+                                <h4 class="text-dark text-uppercase text-bold" data-title="title" id="title-post">Lorem Ipsum</h4>
+                                <p class="lead" data-subtitle="subtitle" id="subtitle-post">HTTP Practical</p>
+                                <a href="#" class="btn btn-main rounded-circle float-right" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- One More Post -->
+                          <div class="col-12">
+                            <div class="row ai-center border-bottom px-4 py-3">
+                              <div class="col-6">
+                                <img src="./media/img/truck-model-5.png" alt="another-post-1" class="img img-fluid of-cover">
+                              </div>
+                              <div class="col-6 lh-05">
+                                <h4 class="text-dark text-uppercase text-bold" data-title="title" id="title-post">Lorem Ipsum</h4>
+                                <p class="lead" data-subtitle="subtitle" id="subtitle-post">HTTP Practical</p>
+                                <a href="#" class="btn btn-main rounded-circle float-right" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                              </div>
+                            </div>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </aside>
+
+                </div>
+              </div>
             </aside><!-- / Side Bar-->
           </div>
         </div><!-- / Display of main content article and sidebar -->
@@ -317,7 +409,32 @@
 
         <!-- Comments Section / Another Whidget -->
         <section id="comment-post">
-          Aqui va el section con el formulario para poder comentar el articulo
+          <div class="container-fluid">
+            <div class="row py-5">
+              <div class="col-lg-10 offset-lg-1 col-md-12 cd_bg-news-box">
+
+                <div class="row py-5">
+                  <div class="col-md-3 text-center">
+                    <h2 class="text-uppercase text-dark text-bold">comentar</h2>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <form action="" method="GET">
+                      <div class="form-group">
+                        <input type="text" class="form-control bg-gray-light rounded-0 cd_input-normal transition" id="user-name-comments" placeholder="Nombre" name="name-comments">
+                      </div>
+                      <div class="form-group">
+                        <textarea type="text" class="form-control bg-gray-light rounded-0 cd_input-normal transition" id="user-thought-comments" placeholder="¿Que estas pensando?" name="textarea-comments"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="form-control btn btn-main rounded-0 w-25 float-right transition" id="submit-user-comments" name="button-submit-comments">Enviar</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
         </section>
 
       </main>
