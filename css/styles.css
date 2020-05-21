@@ -77,8 +77,17 @@ ul.navbar-nav.ml-auto .nav-item {
   .input-main:focus {
     background: rgba(255, 255, 255, 0.1);
     outline: none;
-    border-color: #cba758;
+    border-color: #fff;
     color: #fff; }
+    .input-main:focus:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: auto;
+      min-height: 100vh; }
 
 .cd_border-bot-cat {
   border-bottom: 10px solid #cba758 !important; }
@@ -106,5 +115,27 @@ ul.navbar-nav.ml-auto .nav-item {
   font-size: 12px;
   font-weight: bold;
   color: #ccc !important; }
+
+.cd_min-vh-75 {
+  min-height: 75vh;
+  height: auto; }
+
+.cd_min-vh-70 {
+  min-height: 70vh;
+  height: auto; }
+
+.cd_w-md-50 {
+  width: auto; }
+  @media (min-width: 578px) {
+    .cd_w-md-50 {
+      width: 50%; } }
+
+@media (min-width: 578px) {
+  .cd_jc-md-end {
+    justify-content: flex-end; } }
+
+@media (min-width: 578px) {
+  .cd_p-md-4 {
+    padding: 1.5rem; } }
 
 /*# sourceMappingURL=styles.css.map */

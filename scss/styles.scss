@@ -113,8 +113,18 @@ ul.navbar-nav.ml-auto .nav-item {
   &:focus {
     background: rgba($white-color,.1);
     outline: none;
-    border-color: $main-color;
+    border-color: $white-color;
     color: $white-color;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,.5);
+      width: 100%;
+      height: auto;
+      min-height: 100vh;
+    }
   }
 }
 
@@ -154,5 +164,33 @@ ul.navbar-nav.ml-auto .nav-item {
     font-size: 12px;
     font-weight: bold;
     color: $gray-color !important;
+  }
+}
+
+.cd_min-vh-75 {
+  min-height: 75vh;
+  height: auto;
+}
+.cd_min-vh-70 {
+  min-height: 70vh;
+  height: auto;
+}
+
+.cd_w-md-50 {
+  width: auto;
+  @media (min-width: 578px) {
+    width: 50%;
+  }
+}
+
+.cd_jc-md-end {
+  @media (min-width: 578px) {
+    justify-content: flex-end;
+  }
+}
+
+.cd_p-md-4 {
+  @media (min-width: 578px) {
+    padding: 1.5rem;
   }
 }
