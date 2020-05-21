@@ -138,4 +138,12 @@ ul.navbar-nav.ml-auto .nav-item {
   .cd_p-md-4 {
     padding: 1.5rem; } }
 
+main#cd_main-article {
+  margin-top: 6.5rem !important;
+  border-top: 5px solid #cba758; }
+
+.cd_border-article {
+  width: 100%;
+  border-bottom: 4px solid #cba758; }
+
 /*# sourceMappingURL=styles.css.map */
