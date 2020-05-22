@@ -69,16 +69,19 @@ ul.navbar-nav.ml-auto .nav-item {
 .input-main {
   border: 3px solid #cba758;
   background: transparent;
-  padding: 25px;
+  color: #cba758;
+  padding-bottom: 2rem;
   border-radius: 15px;
   transition: ease .3s; }
+  .input-main:hover {
+    cursor: text !important; }
   .input-main::placeholder {
     color: #fff; }
   .input-main:focus {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(203, 167, 88, 0.1);
     outline: none;
-    border-color: #fff;
-    color: #fff; }
+    border-color: #cba758;
+    color: #cba758; }
     .input-main:focus:after {
       content: '';
       position: absolute;
@@ -88,6 +91,28 @@ ul.navbar-nav.ml-auto .nav-item {
       width: 100%;
       height: auto;
       min-height: 100vh; }
+  .input-main--modal {
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #cba758;
+    background: transparent;
+    border-radius: 0 !important; }
+    .input-main--modal:focus {
+      background: transparent;
+      outline: none;
+      border-color: #cba758;
+      color: #fff;
+      box-shadow: 0 0 0 transparent !important; }
+      .input-main--modal:focus:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        border: none; }
 
 .cd_border-bot-cat {
   border-bottom: 10px solid #cba758 !important; }
@@ -185,5 +210,17 @@ textarea.cd_input-normal {
   @media (min-width: 578px) {
     .cd_fz-md-2rem {
       font-size: 2rem; } }
+
+#modal-search {
+  display: none; }
+  #modal-search.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: block;
+    z-index: 1000000; }
 
 /*# sourceMappingURL=styles.css.map */

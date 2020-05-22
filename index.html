@@ -5,8 +5,7 @@
     <title>Blog | Chevrolet</title>
     <meta charset='utf-8' />
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
-    <meta name='viewport'
-      content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' />
+    <meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' />
     <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet' />
     <link href='https://coredeiv.github.io/bootstraplus/css/bootstraplus.min.css' rel='stylesheet' />
     <link rel='stylesheet' href='css/styles.css' />
@@ -14,7 +13,25 @@
 
   <body class="bg-dark">
 
-    <div id="wrap-wrap" class="bg-white">
+    <div id="wrap-wrap" class="bg-white position-relative">
+
+      <section id="modal-search" class="cd_overlay-search">
+        <div class="container">
+          <div class="row position-relative">
+            <div class="col-md-12 text-right position-absolute left-25 top-25">
+              <a href="#" class="btn btn-link text-main" id="close-search"><i class="fa fa-2x fa-times"></i></a>
+            </div>
+            <div class="col-12 py-15">
+              <form>
+                <div class="form-group d-flex m-auto">
+                  <label for="formGroupExampleInput" class="m-auto pr-5 pb-5 text-main"><i class="fas fa-2x fa-search"></i></label>
+                  <input type="text" class="form-control input-main--modal text-left mt-5">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <header id="header">
         <nav class="navbar navbar-expand-xl navbar-togglable fixed-top navbar-light bg-white box-shadow-sm">
@@ -150,7 +167,7 @@
                 <form>
                   <div class="form-group d-flex m-auto">
                     <label for="formGroupExampleInput" class="m-auto pr-3 text-main"><i class="fas fa-search"></i></label>
-                    <input type="text" class="form-control input-main" id="formGroupExampleInput" placeholder="¿Que estas buscando?">
+                    <input type="button" class="form-control input-main text-left" id="input-modal" value="¿Que estas buscando?">
                   </div>
                 </form>
 
