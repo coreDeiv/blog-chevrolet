@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
   <head>
     <title>Blog | Chevrolet</title>
     <meta charset='utf-8' />
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
-    <meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0' />
     <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet' />
     <link href='https://coredeiv.github.io/bootstraplus/css/bootstraplus.min.css' rel='stylesheet' />
     <link rel='stylesheet' href='css/styles.min.css' />
@@ -14,24 +14,6 @@
   <body class="bg-dark">
 
     <div id="wrap-wrap" class="bg-white position-relative">
-
-      <section id="modal-search" class="cd_overlay-search">
-        <div class="container">
-          <div class="row position-relative">
-            <div class="col-md-12 text-right position-absolute left-25 top-25">
-              <a href="#" class="btn btn-link text-main" id="close-search"><i class="fa fa-2x fa-times"></i></a>
-            </div>
-            <div class="col-12 py-15">
-              <form>
-                <div class="form-group d-flex m-auto">
-                  <label for="formGroupExampleInput" class="m-auto pr-5 pb-5 text-main"><i class="fas fa-2x fa-search"></i></label>
-                  <input type="text" class="form-control input-main--modal text-left mt-5">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <header id="header">
         <nav class="navbar navbar-expand-xl navbar-togglable fixed-top navbar-light bg-white box-shadow-sm">
@@ -163,10 +145,10 @@
           <div class="container">
             <div class="row pt-25 pb-15">
               <div class="col-md-10 m-auto">
-
+                <h1 class="d-none">Buscar Mas post</h1>
                 <form>
                   <div class="form-group d-flex m-auto">
-                    <label for="formGroupExampleInput" class="m-auto pr-3 text-main"><i class="fas fa-search"></i></label>
+                    <label for="input-modal" class="m-auto pr-3 text-main"><i class="fas fa-search"></i></label>
                     <input type="button" class="form-control input-main text-left" id="input-modal" value="¿Que estas buscando?">
                   </div>
                 </form>
@@ -181,30 +163,31 @@
           <div class="container-fluid">
             <div class="row py-5">
               <div class="col-lg-10 offset-lg-1 col-12">
+                <h1 class="d-none">Todos los articulos de nuestro blog</h1>
 
                 <div class="row">
 
                   <!-- Box of post -->
                   <div class="col-xl-4 col-lg-6 col-md-6 col-12 mt-2 cd_min-vh-75">
                     <div class="card">
-                      <img src="./media/img/truck-model-1.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post" id="img-post">
+                      <img src="./media/img/truck-model-1.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post">
                       <div class="card-body">
                         <h6 class="card-date">
-                          <span id="day-post">00</span>
+                          <span data-day_post="date-post">00</span>
                           /
-                          <span id="month-post">00</span>
+                          <span data-month_post="month-post">00</span>
                           /
-                          <span id="year-post">00</span>
+                          <span data-year_post="year-post">00</span>
                         </h6>
-                        <h4 class="card-title text-uppercase text-bold" data-title="title" id="title-post">Este es el primer camion 4x4 de chevrolet</h4>
-                        <p class="card-text text-muted fz-1rem" data-description="description" id="description-post">Conoce el camion NPS 4X4 hecho para los que no tienen limites</p>
+                        <h4 class="card-title text-uppercase text-bold" data-title="title">Este es el primer camion 4x4 de chevrolet</h4>
+                        <p class="card-text text-muted fz-1rem" data-description="description">Conoce el camion NPS 4X4 hecho para los que no tienen limites</p>
                         <div class="d-flex jc-between ai-center">
-                          <div class="tag-group" id="tags-post">
+                          <div class="tag-group">
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Lorem</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Ipsum</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Dolor</a>
                           </div>
-                          <a href="article.html" class="btn btn-main rounded-circle" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                          <a href="article.html" class="btn btn-main rounded-circle"><i class="fas fa-chevron-right text-white"></i></a>
                         </div>
                       </div>
                     </div>
@@ -213,24 +196,24 @@
                   <!-- Box of post -->
                   <div class="col-xl-4 col-lg-6 col-md-6 col-12 mt-2 cd_min-vh-75">
                     <div class="card">
-                      <img src="./media/img/truck-model-2.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post" id="img-post">
+                      <img src="./media/img/truck-model-2.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post">
                       <div class="card-body">
                         <h6 class="card-date">
-                          <span id="day-post">00</span>
+                          <span data-day_post="date-post">00</span>
                           /
-                          <span id="month-post">00</span>
+                          <span data-month_post="month-post">00</span>
                           /
-                          <span id="year-post">00</span>
+                          <span data-year_post="year-post">00</span>
                         </h6>
-                        <h4 class="card-title text-uppercase text-bold" data-title="title" id="title-post">Probamos nuestros camiones por una causa</h4>
-                        <p class="card-text text-muted fz-1rem" data-description="description" id="description-post">Mira como un test drive puede convertirse en decenas de hogares</p>
+                        <h4 class="card-title text-uppercase text-bold" data-title="title">Probamos nuestros camiones por una causa</h4>
+                        <p class="card-text text-muted fz-1rem" data-description="description">Mira como un test drive puede convertirse en decenas de hogares</p>
                         <div class="d-flex jc-between ai-center">
-                          <div class="tag-group" id="tags-post">
+                          <div class="tag-group">
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Lorem</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Ipsum</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Dolor</a>
                           </div>
-                          <a href="./article.html" class="btn btn-main rounded-circle" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                          <a href="./article.html" class="btn btn-main rounded-circle"><i class="fas fa-chevron-right text-white"></i></a>
                         </div>
                       </div>
                     </div>
@@ -239,24 +222,24 @@
                   <!-- Box of post -->
                   <div class="col-xl-4 col-lg-6 col-md-6 col-12 mt-2 cd_min-vh-75">
                     <div class="card">
-                      <img src="./media/img/truck-model-3.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post" id="img-post">
+                      <img src="./media/img/truck-model-3.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post">
                       <div class="card-body">
                         <h6 class="card-date">
-                          <span id="day-post">00</span>
+                          <span data-day_post="date-post">00</span>
                           /
-                          <span id="month-post">00</span>
+                          <span data-month_post="month-post">00</span>
                           /
-                          <span id="year-post">00</span>
+                          <span data-year_post="year-post">00</span>
                         </h6>
-                        <h4 class="card-title text-uppercase text-bold" data-title="title" id="title-post">Cinco maneras para ser tu propio jefe</h4>
-                        <p class="card-text text-muted fz-1rem" data-description="description" id="description-post">Si eres de los que sueña con tener su propio camion, este articulo es para ti</p>
+                        <h4 class="card-title text-uppercase text-bold" data-title="title">Cinco maneras para ser tu propio jefe</h4>
+                        <p class="card-text text-muted fz-1rem" data-description="description">Si eres de los que sueña con tener su propio camion, este articulo es para ti</p>
                         <div class="d-flex jc-between ai-center">
-                          <div class="tag-group" id="tags-post">
+                          <div class="tag-group">
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Lorem</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Ipsum</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Dolor</a>
                           </div>
-                          <a href="./article.html" class="btn btn-main rounded-circle" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                          <a href="./article.html" class="btn btn-main rounded-circle"><i class="fas fa-chevron-right text-white"></i></a>
                         </div>
                       </div>
                     </div>
@@ -265,24 +248,24 @@
                   <!-- Box of post -->
                   <div class="col-xl-4 col-lg-6 col-md-6 col-12 mt-2 cd_min-vh-75">
                     <div class="card">
-                      <img src="./media/img/truck-model-4.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post" id="img-post">
+                      <img src="./media/img/truck-model-4.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post">
                       <div class="card-body">
                         <h6 class="card-date">
-                          <span id="day-post">00</span>
+                          <span data-day_post="date-post">00</span>
                           /
-                          <span id="month-post">00</span>
+                          <span data-month_post="month-post">00</span>
                           /
-                          <span id="year-post">00</span>
+                          <span data-year_post="year-post">00</span>
                         </h6>
-                        <h4 class="card-title text-uppercase text-bold" data-title="title" id="title-post">Lorem ipsum dolor sit, amet consectetur adipisicing.</h4>
-                        <p class="card-text text-muted fz-1rem" data-description="description" id="description-post">Voluptate nemo ipsa vero aut quia consequatur quisquam.</p>
+                        <h4 class="card-title text-uppercase text-bold" data-title="title">Lorem ipsum dolor sit, amet consectetur adipisicing.</h4>
+                        <p class="card-text text-muted fz-1rem" data-description="description">Voluptate nemo ipsa vero aut quia consequatur quisquam.</p>
                         <div class="d-flex jc-between ai-center">
-                          <div class="tag-group" id="tags-post">
+                          <div class="tag-group">
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Lorem</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Ipsum</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Dolor</a>
                           </div>
-                          <a href="./article.html" class="btn btn-main rounded-circle" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                          <a href="./article.html" class="btn btn-main rounded-circle"><i class="fas fa-chevron-right text-white"></i></a>
                         </div>
                       </div>
                     </div>
@@ -291,24 +274,24 @@
                   <!-- Box of post -->
                   <div class="col-xl-4 col-lg-6 col-md-6 col-12 mt-2 cd_min-vh-75">
                     <div class="card">
-                      <img src="./media/img/truck-model-5.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post" id="img-post">
+                      <img src="./media/img/truck-model-5.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post">
                       <div class="card-body">
                         <h6 class="card-date">
-                          <span id="day-post">00</span>
+                          <span data-day_post="date-post">00</span>
                           /
-                          <span id="month-post">00</span>
+                          <span data-month_post="month-post">00</span>
                           /
-                          <span id="year-post">00</span>
+                          <span data-year_post="year-post">00</span>
                         </h6>
-                        <h4 class="card-title text-uppercase text-bold" data-title="title" id="title-post">Possimus molestiae aliquam consequatur. Autem.</h4>
-                        <p class="card-text text-muted fz-1rem" data-description="description" id="description-post">Iste est maiores ea id dolorem sapiente repellendus. Illo dolores iusto ipsam aspernatur facere.</p>
+                        <h4 class="card-title text-uppercase text-bold" data-title="title">Possimus molestiae aliquam consequatur. Autem.</h4>
+                        <p class="card-text text-muted fz-1rem" data-description="description">Iste est maiores ea id dolorem sapiente repellendus. Illo dolores iusto ipsam aspernatur facere.</p>
                         <div class="d-flex jc-between ai-center">
-                          <div class="tag-group" id="tags-post">
+                          <div class="tag-group">
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Lorem</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Ipsum</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Dolor</a>
                           </div>
-                          <a href="./article.html" class="btn btn-main rounded-circle" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                          <a href="./article.html" class="btn btn-main rounded-circle"><i class="fas fa-chevron-right text-white"></i></a>
                         </div>
                       </div>
                     </div>
@@ -330,9 +313,9 @@
                                 <img src="./media/img/truck-model-3.png" alt="another-post-1" class="img img-fluid of-cover">
                               </div>
                               <div class="col-6 lh-05">
-                                <h4 class="text-dark text-uppercase text-bold" data-title="title" id="title-post">Lorem Ipsum</h4>
-                                <p class="lead" data-subtitle="subtitle" id="subtitle-post">HTTP Practical</p>
-                                <a href="#" class="btn btn-main rounded-circle float-right" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                                <h4 class="text-dark text-uppercase text-bold" data-title="title">Lorem Ipsum</h4>
+                                <p class="lead" data-subtitle="subtitle">HTTP Practical</p>
+                                <a href="#" class="btn btn-main rounded-circle float-right"><i class="fas fa-chevron-right text-white"></i></a>
                               </div>
                             </div>
                           </div>
@@ -344,9 +327,9 @@
                                 <img src="./media/img/truck-model-4.png" alt="another-post-1" class="img img-fluid of-cover">
                               </div>
                               <div class="col-6 lh-05">
-                                <h4 class="text-dark text-uppercase text-bold" data-title="title" id="title-post">Lorem Ipsum</h4>
-                                <p class="lead" data-subtitle="subtitle" id="subtitle-post">HTTP Practical</p>
-                                <a href="#" class="btn btn-main rounded-circle float-right" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                                <h4 class="text-dark text-uppercase text-bold" data-title="title">Lorem Ipsum</h4>
+                                <p class="lead" data-subtitle="subtitle">HTTP Practical</p>
+                                <a href="#" class="btn btn-main rounded-circle float-right"><i class="fas fa-chevron-right text-white"></i></a>
                               </div>
                             </div>
                           </div>
@@ -358,9 +341,9 @@
                                 <img src="./media/img/truck-model-5.png" alt="another-post-1" class="img img-fluid of-cover">
                               </div>
                               <div class="col-6 lh-05">
-                                <h4 class="text-dark text-uppercase text-bold" data-title="title" id="title-post">Lorem Ipsum</h4>
-                                <p class="lead" data-subtitle="subtitle" id="subtitle-post">HTTP Practical</p>
-                                <a href="#" class="btn btn-main rounded-circle float-right" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                                <h4 class="text-dark text-uppercase text-bold" data-title="title">Lorem Ipsum</h4>
+                                <p class="lead" data-subtitle="subtitle">HTTP Practical</p>
+                                <a href="#" class="btn btn-main rounded-circle float-right"><i class="fas fa-chevron-right text-white"></i></a>
                               </div>
                             </div>
                           </div>
@@ -374,24 +357,24 @@
                   <!-- Box of post -->
                   <div class="col-xl-4 col-lg-6 col-md-6 col-12 mt-2 cd_min-vh-75">
                     <div class="card">
-                      <img src="./media/img/truck-model-1.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post" id="img-post">
+                      <img src="./media/img/truck-model-1.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post">
                       <div class="card-body">
                         <h6 class="card-date">
-                          <span id="day-post">00</span>
+                          <span data-day_post="date-post">00</span>
                           /
-                          <span id="month-post">00</span>
+                          <span data-month_post="month-post">00</span>
                           /
-                          <span id="year-post">00</span>
+                          <span data-year_post="year-post">00</span>
                         </h6>
-                        <h4 class="card-title text-uppercase text-bold" data-title="title" id="title-post">Possimus molestiae aliquam consequatur. Autem.</h4>
-                        <p class="card-text text-muted fz-1rem" data-description="description" id="description-post">Iste est maiores ea id dolorem sapiente repellendus. Illo dolores iusto ipsam aspernatur facere.</p>
+                        <h4 class="card-title text-uppercase text-bold" data-title="title">Possimus molestiae aliquam consequatur. Autem.</h4>
+                        <p class="card-text text-muted fz-1rem" data-description="description">Iste est maiores ea id dolorem sapiente repellendus. Illo dolores iusto ipsam aspernatur facere.</p>
                         <div class="d-flex jc-between ai-center">
-                          <div class="tag-group" id="tags-post">
+                          <div class="tag-group">
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Lorem</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Ipsum</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Dolor</a>
                           </div>
-                          <a href="./article.html" class="btn btn-main rounded-circle" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                          <a href="./article.html" class="btn btn-main rounded-circle"><i class="fas fa-chevron-right text-white"></i></a>
                         </div>
                       </div>
                     </div>
@@ -400,24 +383,24 @@
                   <!-- Box of post -->
                   <div class="col-xl-4 col-lg-6 col-md-6 col-12 mt-2 cd_min-vh-75">
                     <div class="card">
-                      <img src="./media/img/truck-model-2.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post" id="img-post">
+                      <img src="./media/img/truck-model-2.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post">
                       <div class="card-body">
                         <h6 class="card-date">
-                          <span id="day-post">00</span>
+                          <span data-day_post="date-post">00</span>
                           /
-                          <span id="month-post">00</span>
+                          <span data-month_post="month-post">00</span>
                           /
-                          <span id="year-post">00</span>
+                          <span data-year_post="year-post">00</span>
                         </h6>
-                        <h4 class="card-title text-uppercase text-bold" data-title="title" id="title-post">Possimus molestiae aliquam consequatur. Autem.</h4>
-                        <p class="card-text text-muted fz-1rem" data-description="description" id="description-post">Iste est maiores ea id dolorem sapiente repellendus. Illo dolores iusto ipsam aspernatur facere.</p>
+                        <h4 class="card-title text-uppercase text-bold" data-title="title">Possimus molestiae aliquam consequatur. Autem.</h4>
+                        <p class="card-text text-muted fz-1rem" data-description="description">Iste est maiores ea id dolorem sapiente repellendus. Illo dolores iusto ipsam aspernatur facere.</p>
                         <div class="d-flex jc-between ai-center">
-                          <div class="tag-group" id="tags-post">
+                          <div class="tag-group">
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Lorem</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Ipsum</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Dolor</a>
                           </div>
-                          <a href="./article.html" class="btn btn-main rounded-circle" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                          <a href="./article.html" class="btn btn-main rounded-circle"><i class="fas fa-chevron-right text-white"></i></a>
                         </div>
                       </div>
                     </div>
@@ -426,24 +409,24 @@
                   <!-- Box of post -->
                   <div class="col-xl-4 col-lg-6 col-md-6 col-12 mt-2 cd_min-vh-75">
                     <div class="card">
-                      <img src="./media/img/truck-model-3.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post" id="img-post">
+                      <img src="./media/img/truck-model-3.png" class="card-img-top vh-40 of-cover" alt="model-truck-1" data-image_post="img-post">
                       <div class="card-body">
                         <h6 class="card-date">
-                          <span id="day-post">00</span>
+                          <span data-day_post="date-post">00</span>
                           /
-                          <span id="month-post">00</span>
+                          <span data-month_post="month-post">00</span>
                           /
-                          <span id="year-post">00</span>
+                          <span data-year_post="year-post">00</span>
                         </h6>
-                        <h4 class="card-title text-uppercase text-bold" data-title="title" id="title-post">Possimus molestiae aliquam consequatur. Autem.</h4>
-                        <p class="card-text text-muted fz-1rem" data-description="description" id="description-post">Iste est maiores ea id dolorem sapiente repellendus. Illo dolores iusto ipsam aspernatur facere.</p>
+                        <h4 class="card-title text-uppercase text-bold" data-title="title">Possimus molestiae aliquam consequatur. Autem.</h4>
+                        <p class="card-text text-muted fz-1rem" data-description="description">Iste est maiores ea id dolorem sapiente repellendus. Illo dolores iusto ipsam aspernatur facere.</p>
                         <div class="d-flex jc-between ai-center">
-                          <div class="tag-group" id="tags-post">
+                          <div class="tag-group">
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Lorem</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Ipsum</a>
                             <a href="#" class="btn btn-gray btn-bg-light text-dark" data-tag="tag">Dolor</a>
                           </div>
-                          <a href="./article.html" class="btn btn-main rounded-circle" id="get-post"><i class="fas fa-chevron-right text-white"></i></a>
+                          <a href="./article.html" class="btn btn-main rounded-circle"><i class="fas fa-chevron-right text-white"></i></a>
                         </div>
                       </div>
                     </div>
@@ -461,6 +444,7 @@
           <div class="container-fluid">
             <div class="row pb-5">
               <div class="col-md-10 offset-md-1">
+                <h1 class="d-none">Nuestras categorias</h1>
 
                 <div class="row border pb-4 px-5 pt-5 cd_border-bot-cat ai-center">
                   <div class="col-md-4">
@@ -503,8 +487,9 @@
         <section id="news-letter-post">
           <div class="container-fluid">
             <div class="row py-5 mx-md-5 cd_bg-news-box ai-center">
+              <h1 class="d-none">Suscribete a nuestro Newsletter</h1>
 
-              <form action="" class="w-100">
+              <form class="w-100">
                 <div class="col-md-12">
                   <div class="border border-dark p-2 cd_w-md-50 m-auto">
                     <a href="#" class="btn btn-main btn-lg rounded-0 btn-block text-white">¿Sobre que otro tema quieres saber?</a>
@@ -514,17 +499,17 @@
                   <div class="row pt-5">
                     <div class="col-lg-4">
                       <div class="form-group">
-                        <input type="text" class="form-control bg-gray-light rounded-0 cd_input-normal" id="newsletter-blog-name" placeholder="Nombre">
+                        <input type="text" class="form-control bg-gray-light rounded-0 cd_input-normal" placeholder="Nombre">
                       </div>
                     </div>
                     <div class="col-lg-4">
                       <div class="form-group">
-                        <input type="email" class="form-control bg-gray-light rounded-0 cd_input-normal" id="newsletter-blog-name" placeholder="Correo Electronico">
+                        <input type="email" class="form-control bg-gray-light rounded-0 cd_input-normal" placeholder="Correo Electronico">
                       </div>
                     </div>
                     <div class="col-lg-4">
                       <div class="form-group">
-                        <input type="tel" class="form-control bg-gray-light rounded-0 cd_input-normal" id="newsletter-blog-name" placeholder="Numero de Telefono (Opcional)">
+                        <input type="tel" class="form-control bg-gray-light rounded-0 cd_input-normal" placeholder="Numero de Telefono (Opcional)">
                       </div>
                     </div>
                   </div>
@@ -539,6 +524,7 @@
         <section id="features-post">
           <div class="container-fluid">
             <div class="row py-5 mx-md-5 ai-center jc-center cd_jc-md-end">
+              <h1 class="d-none">Caracterisiticas de nuestros vehiculos</h1>
               <div class="col-2 col-lg-1">
                 <img src="./media/icons/feature-icon-1.png" alt="" class="img img-fluid of-cover">
               </div>
@@ -574,18 +560,22 @@
               </a>
             </div>
             <div class="col-md-3">
-              <li class="list-unstyled">
-                <a href="tel://+575602460" class="text-gray text-main-hover transition ws-none">
-                  Call center Bogotá 031 424 93 93
-                </a>
-              </li>
+              <ul class="list-unstyled">
+                <li class="list-unstyled">
+                  <a href="tel://+575602460" class="text-gray text-main-hover transition ws-none">
+                    Call center Bogotá 031 424 93 93
+                  </a>
+                </li>
+              </ul>
             </div>
             <div class="col-md-6 px-4">
-              <li class="list-unstyled">
-                <a href="tel://+575602460" class="text-gray text-main-hover transition ws-none">
-                  Resto del país 01 8000 (1) 24 38 9 (CHEVY)
-                </a>
-              </li>
+              <ul class="list-unstyled">
+                <li class="list-unstyled">
+                  <a href="tel://+575602460" class="text-gray text-main-hover transition ws-none">
+                    Resto del país 01 8000 (1) 24 38 9 (CHEVY)
+                  </a>
+                </li>
+              </ul>
             </div>
           </div><!-- / title content -->
 
@@ -630,6 +620,31 @@
 
         </div>
       </footer>
+
+      <section id="modal-search" class="cd_overlay-search">
+        <div class="container">
+          <div class="row position-relative">
+            <h1 class="d-none">¿que mas quieres saber?</h1>
+            <div class="col-md-12 text-right position-absolute left-25 top-25">
+              <a href="#" class="btn btn-link text-main" id="close-search"><i class="fa fa-2x fa-times"></i></a>
+            </div>
+            <div class="col-12 py-15">
+              <form>
+                <div class="form-group d-flex m-auto">
+                  <label for="overlay-input" class="m-auto pr-5 pb-5 text-main"><i class="fas fa-2x fa-search"></i></label>
+                  <input type="text" class="form-control input-main--modal text-left mt-5" id="overlay-input">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <p class="w3c">
+        <a href="https://validator.w3.org/check?uri=referer">
+          <img src = "http://www.w3.org/Icons/valid-xhtml10" alt = "¡Válido XHTML 1.0!" height = "31" width = "88" />
+        </a>
+      </p>
 
     </div>
 

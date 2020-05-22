@@ -251,6 +251,11 @@ html {
 		display: block;
 		z-index: 1000000;
 	}
+	.w3c {
+		position: fixed;
+		bottom: 15%;
+		left: 0;
+	}
 }
 @media (min-width: 1200px) {
 	#wrap-wrap {
