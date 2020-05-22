@@ -212,7 +212,8 @@ textarea.cd_input-normal {
       font-size: 2rem; } }
 
 #modal-search {
-  display: none; }
+  display: none;
+  transition: ease-in-out .5s all; }
   #modal-search.active {
     position: fixed;
     top: 0;
