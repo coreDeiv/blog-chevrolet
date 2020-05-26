@@ -14,6 +14,7 @@ $fz_overlay: 5.625rem;
 $fz_ttl_art: 6.625rem;
 $fz_cite: 4.563rem;
 $fz_share_ttl: 4rem;
+$fz_foot: .75rem;
 
 * {
 	margin: 0;
@@ -37,6 +38,33 @@ html {
 	overflow-x: hidden;
 	font-family: $font_family_1;
 	scroll-behavior: smooth;
+}
+header, 
+form, 
+.card-date, 
+.tag-group, 
+.lead {
+	font-size: $fz_header !important;
+}
+.fz-pst_desc, 
+.fz-cat {
+	font-size: $fz_desc_pst_cat !important;
+}
+.fz_news, 
+.fz-share {
+	font-size: $fz_news_share !important;
+}
+.fz_overlay {
+	font-size: $fz_overlay !important;
+}
+#title-article {
+	font-size: $fz_ttl_art !important;
+}
+cite {
+	font-size: $fz_cite !important;
+}
+.fz_comments {
+	font-size: $fz_share_ttl !important;
 }
 #wrap-wrap {
 	.navbar-nav {
@@ -206,12 +234,12 @@ html {
 	}
 	.cd_footer-styles {
 		a {
-			font-size: 12px;
+			font-size: $fz_foot;
 			font-weight: bold;
 			color: $color_3 !important;
 		}
 		p {
-			font-size: 12px;
+			font-size: $fz_foot;
 			font-weight: bold;
 			color: $color_3 !important;
 		}
