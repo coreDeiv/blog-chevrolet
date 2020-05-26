@@ -1,0 +1,10 @@
+16px Predeterminado			                 -->    16px      -->		1     rem      
+Titulo Post, psters-aside		             -->    20px			-->		1.25  rem
+Subtitulo Post, categorias		           -->    49px			-->		3.063 rem	
+Fecha, tags, inputs, header, texto art   -->    26px			-->		1.625 rem
+newsletter btn, share title		           -->    45px			-->		2.813 rem 
+overlay					                         -->    90px			-->		5.625 rem
+title art				                         -->    106px			-->		6.625 rem
+cita					                           -->    73px			-->		4.563 rem
+share title				                       -->    64px			-->		4     rem
+

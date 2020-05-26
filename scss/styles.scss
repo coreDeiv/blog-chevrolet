@@ -1,13 +1,24 @@
+// Colores del Tema
 $color_1: #cba758;
 $color_2: #fff;
 $color_3: #ccc;
 $font_family_1: inherit;
 $border_color_1: #cba758;
 
+// Tamaño de las fuentes
+$fz_header: 1.625rem;
+$fz_title_pst: 1.25rem;
+$fz_desc_pst_cat: 3.063rem;
+$fz_news_share: 2.813rem;
+$fz_overlay: 5.625rem;
+$fz_ttl_art: 6.625rem;
+$fz_cite: 4.563rem;
+$fz_share_ttl: 4rem;
+
 * {
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
+	font-size: 16px;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
